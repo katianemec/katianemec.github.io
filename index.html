@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow&family=Righteous&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="js">        
+<div class="wrapperContainer-dark">
+    <header class="header">
+        <button style="display: none;" class="header_btnMenu">Menu</button>
+        <img class="logo" src="./img/logo.jpeg" alt="Katia">
+        <nav class="header_nav"> 
+            <ul>
+                <li>
+                    <a href="#Apresentação">Apresentação</a>
+                </li>
+                <li>
+                    <a href="#Curriculo">Currículo</a>
+                </li>
+                <li>
+                    <a href="#Projetos">Projetos</a>
+                </li>
+                <li>
+                    <a href="#Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div class="wrapperContainer-hero">
+    <section class="container-heroBanner">
+        <div class="header_content">
+            <h1>Kátia Regina dos Santos</h1>
+            <h2>Accountant and Data Analyst</h2>
+        </div>
+            <img src="./img/k.jpg" alt="Photo">
+    </section>
+</div>    
+<div class="wrapperContainer-light">
+    <section id="Apresentação" class="apresentacaoContainer">
+        <h2>Apresentação</h2>
+        <p>Atualmente trabalho com execução de cálculos trabalhistas para análise jurídica da aderência dos pleitos versus as legislações vigentes, nas fases de conhecimento e execução.</p>
+        <p>Experiência em toda a rotina contábil, financeira, recursos humanos e administração de benefícios.</p>
+        <p>Conhecimento em análise de dados com Python e Power BI.</p>
+</div>
+    <div class="itensContainer">
+        <article class="card">
+            <div class="card_content">
+                <section id="Curriculo" aria-label="Download Currículo" class="download">
+                    <h3>Currículo</h3>
+                        <a href="./CV Katia Regina dos Santos Fev 2023.pdf" target="_blank">Download CV</a>
+                    <button class="btn_CV">Baixe CV em PDF</button>
+                </section>
+                <div>
+                <h3>Projetos</h3>
+                </div>
+                <section id="Projetos" class="projeto-itens">
+                   <div class="item">
+                        <img src="./img/cardapio.jpg" alt="cardapio" class="imagem-redimensionada">
+                        <a href="https://katianemec.github.io/cardapio/" target="_blank">Projeto Cardápio</a> 
+                    </div>
+                    <div class="item">
+                        <img src="./img/curriculo.jpg" alt="curriculo" class="imagem-redimensionada">
+                        <a href="https://katianemec.github.io/curriculo/" target="_blank">Projeto Currículo</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/mulheres_na_tecnologia.jpg" alt="Hedy_Lamarr" class="imagem-redimensionada">
+                        <a href="https://katianemec.github.io/mulheres_na_tecnologia/" target="_blank">Projeto Mulheres na tecnologia</a>
+                    </div>
+                    <div class="item">
+                        <img src="./img/ODS7.png" alt="ODS7" class="imagem-redimensionada">
+                        <a href="https://katianemec.github.io/ODS7/" target="_blank">Projeto ODS 7</a>
+                    </div>
+                </section>
+            </div>                    
+            <div>
+                <section id="Contato" class="contato-item">    
+                <h3>Contato</h3>
+                <address class="contato-container">Telefone/Whatsapp: (11)98550-1549</address>        
+                </section>                   
+            </div>
+            <div class="formulario">        
+                <form action="" autocomplete="off">
+                    <fieldset>
+                        <legend>Formulário de Contato</legend>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required placeholder="Digite seu nome completo">
+                            
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" required placeholder="Digite um e-mail válido">
+                            
+                        <label for="subject">Assunto</label>
+                        <input type="text" id="subject" name="subject">
+                            
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" rows="7" required maxlength="1000" minlength="20" placeholder="Digite sua mensagem"></textarea>
+
+                        <button type="submit" class="btn">Enviar</button>
+                            
+                    </fieldset>
+                </form>
+            </div>
+        </article>
+    </div>
+</div>
+    </div class="wrapperContainer-light">
+        <section class="social-media">
+            <div class="icon">  
+                <img src="./img/icons8-linkedin-48.png" alt="LinkedIn">    
+                <span><a href="https://www.linkedin.com/in/katia-regina-dos-santos" target=_blank rel="noopener noreferrer">LinkedIn</a></span>
+            </div>    
+            <div class="icon">    
+                <img src="./img/icons8-github-48.png" alt="GitHub">            
+                <span><a href="https://katianemec.github.io/katianemec/" target="_blank" rel="noopener noreferrer">GitHub</a></span> 
+            </div>
+        </section>
+    </div> 
+    <footer class="footer">
+        <p>Projeto inspirado no curso Webdesign Front-end Fundamentos - Elas na Tech</p>
+        <p>Crédito de imagem do currículo para freepik.com</p>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
